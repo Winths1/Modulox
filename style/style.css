@@ -1,0 +1,469 @@
+/**************FONT**************/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+* {
+    font-family: "Roboto";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab";
+}
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+
+/**************HEADER**************/
+.logo{
+    width: 90%;
+}
+.logo_link{
+    width: 50%;
+}
+header{
+    position: fixed;
+}
+nav li{
+    padding-left: 2.5%;
+}
+  
+
+/**************CONTENT**************/
+/***********************************/
+
+
+/**************TITRE**************/
+.bg_img{
+    background-image: url(../images/banner.jpg);
+    /* background-size:cover; */
+    background-size: 225%;
+    background-position-x: 50%;
+    background-position-y: 80%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+.main_cont h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: white;
+}
+.main_cont p{
+    font-size: 18px;
+    color: white;
+}
+.main_cont p{
+    margin: 2%;
+}
+.main_cont button{
+    padding: 4.5% 2%;
+    margin: 2%;
+}
+
+
+/************A PROPOS*************/
+
+.a_propos{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: black;
+}
+.a_propos h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/************GAMME***************/
+
+.card_rbt{
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 10%;
+}
+.card_rbt:last-child{
+    margin-bottom: 20%;
+}
+.present_rbt h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #333333;
+}
+.card_rbt h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #333333;
+}
+.img_rbt{
+    border-radius: 5px;
+    box-shadow: 0 5px 10px lightgray;
+    margin-bottom: 10%;
+    position: relative;
+    bottom:5%;
+}
+.img_rbt img{
+    width: 100%;
+}
+.present_rbt{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+.rbt_fnt, .rbt_fnt2 , .rbt_fnt3{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 1%;
+}
+.rbt_fnt{
+    color: purple;
+}
+.rbt_fnt2{
+    color:lightseagreen;
+}
+.rbt_fnt3{
+    color: red;
+}
+
+/**********NEWSLETTER***********/
+
+.newsletter{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background-image: url(../images/bg_contact.jpg);
+    /* background-size: cover; */
+    background-size: 225%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.newsletter div h2{
+    padding: 5%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: white;
+    margin-bottom: 0;
+}
+.fontp_news{
+    font-family: "Roboto";
+    font-size: 19px;
+    color: white;
+    margin-bottom: 0;
+}
+.inp_text{
+    padding: 2%;
+    margin: 0 auto 5% auto;
+    border: none;
+}
+
+/************ACTU**************/
+
+.actu div h2:nth-child(1){
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.fontp_actu{
+    font-family: "Roboto Slab";
+    font-size: 19px;
+    color: #333333;
+    padding-bottom: 10%;
+}
+.actu h2{
+    color: #333333;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.act_blog{
+    margin-bottom: 15%;
+}
+.blg_titre{
+    font-family: "Roboto Slab";
+}
+.blg_fnt, .blg_fnté, .blg_fnt3{
+    margin-bottom: 0;
+    margin-top: 1%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.blg_fnt{
+    color: purple;
+}
+.blg_fnt2{
+    color:lightseagreen;
+}
+.blg_fnt3{
+    color: red;
+}
+.boite_img img{
+    display: block;
+    width: 100%;
+}
+.boite_img{
+    overflow: hidden;
+}
+
+/************CONTACT**************/
+
+
+.contacts{
+    background-image: url(../images/bg_contact.jpg);
+    background-size: cover;
+}
+.contact_inf{
+    padding: 20% 1% 1% 1%;
+    margin-bottom: 20%;
+}
+.contacts h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: white; 
+}
+.contacts p{
+    font-family: "Roboto Slab";
+    color: lightgrey;
+    font-size: 16px;
+}
+.form_contact input, .form_contact textarea{
+    text-decoration: none;
+    border: none;
+    border-bottom: black solid 1px;
+    border-radius: 0;
+}
+.form_contact textarea{
+    width:100%;
+}
+#invalidCheck{
+    border: 1px solid black;
+}
+.form_contact{
+    border-radius: 10px;
+    margin-bottom: 20%;
+    background-color: white;
+    position: relative;
+}
+.form_contact form{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.form_titre{
+    position: absolute;
+    background-color: rgb(61, 162, 205) ;
+    padding: 2.5% 2.5%;
+    border-radius: 5px;
+    top: -2.5%;
+    left: 8%;
+}
+.social{
+    justify-content: space-evenly;
+}
+.log_soc{
+    height: 30px;
+    width: 30px;
+}
+
+/*************FOOTER****************/
+
+footer{
+    padding: 10% 2%;
+}
+footer div a{
+    text-decoration: none;
+    color: lightgrey;
+    padding: 0 2%;
+    font-size: 13px;
+}
+
+
+/**********MEDIA QUERIES************/
+/***********************************/
+
+
+
+@media screen and (min-width:768px) {
+    /**********NAV********/
+ 
+    .logo{
+        width: 60%;
+    }
+    .logo_link{
+        width: 50%;
+    }
+
+
+    /*********TITRE*********/
+
+    .bg_img{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    /*******BOUTIQUE*****/
+
+    .present_rbt{
+        margin-bottom: 1%;
+    }
+    .gam_rbt{
+        flex-direction: row;
+        padding: 1%;
+    }
+    .card_rbt:nth-child(1){
+        margin-right: 1% ;
+    }
+    .card_rbt:last-child{
+        margin-left: 1%;
+    }
+    .card_rbt:last-child{
+        margin-bottom: 10%;
+    }
+
+    /******NEWSLETTER******/
+    
+    .newsletter{
+        padding-top: 2.5%;
+        padding-bottom: 5%;
+    }
+
+    /******ACTUALITES******/
+
+    .act_blog{
+        margin-bottom: 5%;
+    }
+
+    /*********CONTACT******/
+
+    .contacts p{
+        font-size: 20px;
+    }
+    .contacts h3{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.3;
+        color: white; 
+    }
+    .contact_inf{
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .log_soc{
+        margin-left: 5%;
+        height: 50px;
+        width: 50px;
+    }
+    .social{
+        justify-content: flex-start;
+    }
+    footer{
+        padding: 5% 2%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /**********NAV********/
+
+    .accueil{
+        background-color: none;
+    }
+    .logo{
+        width: 50%;
+    }
+    .logo_link{
+        width: 25%;
+    } 
+    .cs_fnt{
+        font-size: 10px;
+    }
+
+    /*********TITRE*********/
+    
+    #aprop div{
+        padding: 5% 10%;
+    }
+    .gam_rbt{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .card_rbt:nth-child(1){
+        margin-right: 2%;
+    }
+    .card_rbt:last-child{
+        margin-left: 2%;
+    }
+
+    /*********ACTU*********/
+
+    .fontp_actu{
+        padding-bottom: 2.5%;
+    }
+
+    /*********CONTACT*****/
+
+    .boite{
+        padding-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact_inf{
+        margin-left: 5%;
+    }
+    .pad_left{
+        padding-left: 2.5%;
+    }
+    .form_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    /***********FOOTER********/
+    footer{
+        padding: 2% 2%;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    footer{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+/******************ANIMATIONS****************/
+/********************************************/
+
+/***********ZOOM BOUTIQUE***********/
+.zoom {
+    transition: transform .2s; 
+}
+  
+.zoom:hover{
+    transform: scale(1.2) ;
+}
+
+
+/*********GO TO TOP*************/
+#totop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 3%;
+    background-color: #333333;
+    border: 2px solid white;
+    color: white;
+    font-family: "Roboto Slab";
+    z-index: 10;
+}
+
